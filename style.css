@@ -1,0 +1,38 @@
+h1{
+  color:white;
+}
+
+.grid{
+  background-color:darkcyan;
+  display: flex;
+  justify-content: space-evenly;
+  border-style: solid;
+  margin: auto;
+}
+
+.header{
+  position: relative;
+}
+
+.header p{
+  position: absolute;
+  top:50%;
+  left:20%;
+
+  transform:translate(-25%,-25%);
+  opacity:0;
+}
+.header:hover p{
+  opacity:1;
+}
+.header:hover img{
+  opacity:0.4;
+}
+
+.item{
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: black;
+}
